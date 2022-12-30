@@ -33,13 +33,6 @@ local Label = Section:CreateLabel('Label')
 local Paragraph = Section:CreateParagraph('Paragraph', 'Content')
 ```
 
-## Creating a Notification Command
-```lua
-Window:AddCommand('Name', {}, 'Description', function(Arguments, Speaker)
-    Window:CreateNotification('Visual Command UI Library', 'Notification', 5)
-end)
-```
-
 ## Creating a Button
 ```lua
 local Button = Section:CreateButton('Button', function()
